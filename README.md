@@ -22,6 +22,7 @@ TODO:
 - POST/DELETE CALLS
 - Article structure in XML/Json
 - Templating in front pages -- twig.js
+- Be able to use css/js external files
 - Try to use mongoose REST ?
 - conquer the world
 
