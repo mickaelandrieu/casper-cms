@@ -1,0 +1,9 @@
+{
+    'articles' : [
+        {
+                'title' : 'A wonderfull CMS with PhantomJs and CasperJs',
+                'author' : 'Mickaël Andrieu',
+                'body' : 'So amazing !!! '
+        }
+    ]
+}
