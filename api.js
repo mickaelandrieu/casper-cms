@@ -30,6 +30,12 @@ var service = server.listen(port, function(request, response) {
         response.setHeader('Content-Type', 'text/html; charset=utf-8');
         response.write('APPEL EN POST, TODO');
         response.close();
+    } else if (method == 'DELETE') {
+        // TODO :delete a resource
+        response.statusCode = 302;
+        response.setHeader('Content-Type', 'text/html; charset=utf-8');
+        response.write(fs.read('pages/index.html'));
+        response.close();
     }
 
 });
